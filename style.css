@@ -1,0 +1,96 @@
+.contenedor {
+  width: 424px;
+  height: 425px;
+  position: relative;
+  overflow: hidden;
+}
+
+.cuadrado {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background-color: #ADBF21;
+}
+
+.trapecio_arriba_derecha {
+  width: 40%;
+  height: 40%;
+  position: absolute;
+  left:50%;
+  background-color: #21A680;
+  transform-origin: middle right;
+  transform: skew(-50deg) rotate(0deg);
+}
+
+.trapecio_arriba_izquierda {
+  width: 20%;
+  height: 50%;
+  position: absolute;
+  right:90%;
+  bottom:50%;
+  background-color: #21A680;
+  transform: skew(40deg) rotate(0deg) ;
+}
+
+.trapecio_izquierda_horizontal {
+  width: 10%;
+  height: 35%;
+  position: absolute;
+  right:90%;
+  bottom:5%;
+  background-color: #21A680;
+  transform-origin: middle left;
+  transform: skew(40deg) rotate(-94deg);
+}
+
+.trapecio{
+  width: 30%;
+  height: 90%;
+  position: absolute;
+  left:90%;
+  top:38.9%;
+  background-color: #21A680;
+  transform-origin: middle left;
+  transform: skew(-40deg) rotate(89deg);
+}
+
+.triangulo{
+  width: 30%;
+  height: 90%;
+  position: absolute;
+  left:126%;
+  bottom:16%;
+  background-color: #21A680;
+  transform-origin: middle left;
+  transform: skew(-40deg) rotate(80deg);
+}
+
+.rombo {
+  width: 50px;
+  height: 50px;
+  position: absolute;
+  background-color: #DC2B23;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%) rotate(45deg);
+}
+
+.petalo1 {
+  width: 50px;
+  height: 50px;
+  position: absolute;
+  top: 56%;
+  left: 42%;
+  background-color: #C78014;
+  transform: translate(-50%, -50%) skew(40deg) rotate(-5deg) ;
+}
+
+.petalo2 {
+  width: 50px;
+  height: 55px;
+  position: absolute;
+  top: 56%;
+  left: 58%;
+  background-color: #FD8A2F;
+  transform: translate(-50%, -50%) skew(-40deg) rotate(10deg) ;
+}
